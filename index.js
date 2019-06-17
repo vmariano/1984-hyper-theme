@@ -2,41 +2,48 @@
 
 
 // 1984 palette
-
-const ligthColors = {
+const lightColors = {
     green: '#C1F076',
     light_blue: '#97BBF3',
     blue: '#67BCF9',
-    pink: '#D288F5',
+    light_pink: '#D288F5',
     red: '#EA3DAC',
+    pink: '#FF16B0',
     violet: '#E33DF2',
+    yellow: '#FFEA16'
 };
 
 const darkColors = {
     pink: '#775ABB',
     violet: '#574EB7',
     darkViolet: '#350E72',
-    blue: '#050653',
-    darkBlue: '#0C0D54',
+    blue: '#0C0D54',
+    darkBlue: '#050653',
     black: '#070A2E',
+    gray: '#242533'
 };
 
-const black = '#212836';
-const white = '#a8b5d1';
-const red = '#ff5874';
-const green = '#6af699';
-const yellow = '#fffa9e';
-const blue = '#82aaff';
-const magenta = '#c792ea';
-const cyan = '#4ff2f8';
-const lightBlack = '#7992b4';
-const borderColor = '#141820';
-const tabText = '#7e8698';
-const tabNavBg = '#FF0000';
-const tabTextActive = '#d5d9e2';
-const selectionColor = 'rgba(130, 170, 255, 0.3)';
-const dividerBg = 'rgba(64,74,89,.4)';
-const alternativeCursorColor = '#528bff';
+const yellow = lightColors.yellow;
+const tabNavBg =   darkColors.darkViolet;
+const selectionColor = darkColors.gray;
+
+const borderColor = darkColors.darkBlue;
+const black = darkColors.black;
+const dividerBg = darkColors.blue;
+const lightBlack = darkColors.violet;
+
+const green = lightColors.green;
+const blue = lightColors.blue;
+const magenta = lightColors.light_pink;
+
+const cyan = lightColors.light_blue;
+const red = lightColors.red;
+const alternativeCursorColor = lightColors.violet;
+
+const tabTextActive = lightColors.light_pink;
+const white = lightColors.violet;
+const tabText = darkColors.pink;
+
 
 const colors = {
     black,
