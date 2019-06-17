@@ -109,6 +109,13 @@ module.exports.decorateConfig = config => {
       .splitpane_divider {
         background-color: ${dividerBg} !important;
       }
+      .tab_tab .tab_active {
+        color: #FFF6B0;
+        text-shadow: 2px 2px 10px #FF16B0;
+      }
+      .terms_terms {
+        text-shadow: 2px 2px 10px #FF16B0;
+      }
     `
     })
 };
