@@ -1,2 +1,6 @@
 # 1984-hyper-theme
-hyper theme, base on  https://marketplace.visualstudio.com/items?itemName=juanmnl.vscode-theme-1984
+
+Hyper theme, inspired by [1984](https://marketplace.visualstudio.com/items?itemName=juanmnl.vscode-theme-1984) and based on [hyper-electron-highlighter](https://github.com/vmariano/hyper-electron-highlighter)
+
+
+
