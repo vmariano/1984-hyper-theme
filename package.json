@@ -1,0 +1,21 @@
+{
+  "name": "1984-hyper-theme",
+  "version": "0.0.1",
+  "description": "Hyper theme based on 1984 vstudio code and vaporwave stetics",
+  "main": "index.js",
+  "keywords": [
+    "hyper",
+    "hyper-theme",
+    "colors",
+    "vaporwave",
+    "retro",
+    "1984",
+    "80s"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vmariano/1984-hyper-theme.git"
+  },
+  "author": "vmariano",
+  "license": "MIT"
+}
