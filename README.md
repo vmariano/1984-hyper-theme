@@ -4,3 +4,4 @@ Hyper theme, inspired by [1984](https://marketplace.visualstudio.com/items?itemN
 
 
 
+![Sample](https://raw.githubusercontent.com/vmariano/1984-hyper-theme/3b0b97f8c4070bb1e1d2c291499b02c760d80599/sample1.png)
