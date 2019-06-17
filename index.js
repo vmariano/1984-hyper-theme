@@ -9,6 +9,13 @@ const blue = '#82aaff';
 const magenta = '#c792ea';
 const cyan = '#4ff2f8';
 const lightBlack = '#7992b4';
+const borderColor = '#141820';
+const tabText = '#7e8698';
+const tabNavBg = '#FF0000';
+const tabTextActive = '#d5d9e2';
+const selectionColor = 'rgba(130, 170, 255, 0.3)';
+const dividerBg = 'rgba(64,74,89,.4)';
+const alternativeCursorColor = '#528bff';
 
 const colors = {
     black,
@@ -32,13 +39,7 @@ const colors = {
 module.exports.decorateConfig = config => {
     const backgroundColor = black;
     const foregroundColor = white;
-    const cursorColor = config.cursorColor || '#528bff';
-    const borderColor = '#141820';
-    const selectionColor = 'rgba(130, 170, 255, 0.3)';
-    const tabNavBg = 'red';
-    const tabText = '#7e8698';
-    const tabTextActive = '#d5d9e2';
-    const dividerBg = 'rgba(64,74,89,.4)';
+    const cursorColor = config.cursorColor || alternativeCursorColor;
 
     return Object.assign({}, config, {
         foregroundColor,
