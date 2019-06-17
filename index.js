@@ -1,5 +1,26 @@
 'use strict';
 
+
+// 1984 palette
+
+const ligthColors = {
+    green: '#C1F076',
+    light_blue: '#97BBF3',
+    blue: '#67BCF9',
+    pink: '#D288F5',
+    red: '#EA3DAC',
+    violet: '#E33DF2',
+};
+
+const darkColors = {
+    pink: '#775ABB',
+    violet: '#574EB7',
+    darkViolet: '#350E72',
+    blue: '#050653',
+    darkBlue: '#0C0D54',
+    black: '#070A2E',
+};
+
 const black = '#212836';
 const white = '#a8b5d1';
 const red = '#ff5874';
